@@ -1,36 +1,33 @@
-# Warehouse AGV Detection
+# Lightweight Feature Fusion and Adaptive Upsampling for Real-Time Warehouse AGV Object Detection
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Python 3.10](https://img.shields.io/badge/Python-3.10-green.svg)
-![PyTorch 2.1.2](https://img.shields.io/badge/PyTorch-2.1.2-orange.svg)
+## Overview
 
-> **Note**: Full code release is withheld until acceptance to protect intellectual priority during peer review, following standard academic practice.
+This repository accompanies the research manuscript entitled **"Lightweight Feature Fusion and Adaptive Upsampling for Real-Time Warehouse AGV Object Detection"**, submitted to the *Journal of Electronic Imaging*.
 
-![Detection Results](val_batch2_pred.jpg)
+The study focuses on lightweight object detection for warehouse automated guided vehicles (AGVs), with an emphasis on feature fusion, adaptive upsampling, and real-time detection performance.
 
-Code repository for the paper submitted to *The Visual Computer*.
+## Code Availability
 
----
+The implementation associated with this research is being prepared for release.
 
-## 📌 Status
-**Code will be released upon paper acceptance.**
+The repository will be updated with the relevant source code and instructions for reproducing the experiments.
 
-This repository serves as a permanent link for the manuscript under review. The complete implementation, including source code, trained weights, and documentation, will be made publicly available following the formal acceptance of the paper.
+## Authors
 
-## 📄 Paper Information
-* **Title:** Lightweight Feature Fusion and Adaptive Upsampling for Real-Time Warehouse AGV Object Detection
-* **Journal:** The Visual Computer
-* **Dataset:** Warehouse-ijyxt (publicly available at [Roboflow](https://universe.roboflow.com/warehouse-ijyxt/warehouse-ijyxt) under CC BY 4.0 license)
+- Guorui Liu
+- Zehao Zhao
+- Hualin Dai
+- Yurong Xue
+- Yegui Lin
 
-## 📁 Planned Directory Structure
-Upon acceptance, this repository will be populated with the following structure:
+**Corresponding Author:** Hualin Dai
 
-```text
-warehouse-agv-detection/
-├── datasets/          # Data preprocessing and augmentation scripts
-├── models/            # Lightweight feature fusion and adaptive upsampling modules
-├── weights/           # Pre-trained model weights (.pt files)
-├── train.py           # Training script for AGV detection
-├── val.py             # Evaluation and benchmark script
-├── requirements.txt   # Environment dependencies
-└── README.md
+**Affiliation:** Tianjin Chengjian University, Tianjin, China
+
+## Publication Status
+
+Manuscript submitted to the *Journal of Electronic Imaging* (SPIE).
+
+## Contact
+
+For research-related inquiries, please contact the corresponding author at daihualin@tcu.edu.cn.
